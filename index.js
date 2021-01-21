@@ -21,6 +21,10 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/variant2', (req, res) => {
+  res.render('variant2')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
